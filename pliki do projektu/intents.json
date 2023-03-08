@@ -1,0 +1,106 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+  "responses": ["Hello!","Hey!","What can I do for you?"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me bobot","I'm bobot","I'm bobot your virtual assistant"]
+  },
+
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+  "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  },
+  {"tag": "location",
+  "patterns": ["Where are you located?", "What is your location?", "Where are you based?"],
+  "responses": ["I am a virtual assistant, so I am located in the cloud.", "My location is virtual."]
+  },
+
+  {"tag": "time",
+  "patterns": ["What time is it?", "Can you tell me the time?", "What's the current time?"],
+  "responses": ["I'm sorry, I am not able to know the current time. But you can check your device for the current time."]
+  },
+
+  {"tag": "age",
+  "patterns": ["How old are you?", "What's your age?", "When were you created?"],
+  "responses": ["I am a recent creation, I was created in 2023.", "I am a young model, I am not able to know my age."]
+  },
+
+  {"tag": "weather",
+  "patterns": ["What's the weather like?", "How's the weather?", "Is it raining?"],
+  "responses": ["I'm sorry, I am not able to know the current weather. But you can check your device for the current weather information."]
+  },
+
+  {"tag": "help",
+  "patterns": ["Can you help me?", "I need assistance.", "Can you assist me?"],
+  "responses": ["Of course! What do you need help with?", "Sure, how can I assist you?", "What do you need help with?"]
+  },
+  {"tag": "hoursofoperation",
+  "patterns": ["What are your hours of operation?", "When are you open?", "When can I reach you?"],
+  "responses": ["I am available 24/7, you can reach me at any time."]
+  },
+
+  {"tag": "price",
+  "patterns": ["How much does it cost?", "Can you tell me the price?", "What's the price?"],
+  "responses": ["I'm sorry, I am not able to provide information on pricing. Please contact the relevant department for pricing information."]
+  },
+
+  {"tag": "returns",
+  "patterns": ["Can I return this?", "What's your return policy?", "Can I exchange this?"],
+  "responses": ["I'm sorry, I am not able to provide information on returns or exchanges. Please contact the relevant department for more information on our return and exchange policy."]
+  },
+
+  {"tag": "availability",
+  "patterns": ["Is this product available?", "Do you have this in stock?", "Can I purchase this?"],
+  "responses": ["I'm sorry, I am not able to provide information on product availability. Please contact the relevant department for more information on product availability."]
+  },
+
+  {"tag": "website",
+  "patterns": ["Can you give me your website?", "Where can I find your website?", "What's your website URL?"],
+  "responses": ["Our website is [insert URL here]."]
+  },
+
+  {"tag": "support",
+  "patterns": ["Can I get support?", "I need help", "Can you provide support?"],
+  "responses": ["Of course! How can I help you?", "Sure, what kind of support do you need?", "What kind of support do you need?"]
+  },
+
+  {"tag": "features",
+  "patterns": ["What are the features?", "Can you list the features?", "What does this have?"],
+  "responses": ["I'm sorry, I am not able to provide a list of features. Please contact the relevant department for more information on product features."]
+  },
+
+  {"tag": "aboutcompany",
+  "patterns": ["Can you tell me more about your company?", "What does your company do?", "What is your company's mission?"],
+  "responses": ["Our company is focused on helping."]
+  },
+
+  {"tag": "contactinformation",
+  "patterns": ["Can you give me your contact information?", "How can I reach you?", "What's your phone number?"],
+  "responses": ["You can reach us at 324 425 351"]
+  },
+
+  {"tag": "FAQ",
+  "patterns": ["Can you give me some frequently asked questions?", "What are some common questions?", "What should I know?"],
+  "responses": ["Some frequently asked questions include \nHow do I place an order?\nWhat is your return policy?\nHow long will it take for my order to arrive?" ]
+  },
+
+  {"tag": "complaints",
+  "patterns": ["I want to make a complaint", "I am not satisfied", "This is not what I expected"],
+  "responses": ["I apologize for any inconvenience. Can you please provide more information on what you are not satisfied with? We will do our best to resolve the issue."]
+  }
+
+
+]}
